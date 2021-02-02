@@ -1,11 +1,15 @@
 {
     "name": "faseihs/laravel-btc",
-    "description": "Payment system for btc with bitcoind",
+    "description": "Payment system for btc with bitcoind forked from moki74 package",
     "license": "MIT",
     "authors": [
         {
             "name": "moki74",
             "email": "imojovic@gmail.com"
+        },
+        {
+            "name": "faseihs",
+            "email": "faseihsaad@gmail.com"
         }
     ],
 
@@ -15,14 +19,14 @@
     
     "autoload": {
         "psr-4": {
-            "moki74\\LaravelBtc\\": "src"
+            "faseihs\\LaravelBtc\\": "src"
         }
     },
 
      "extra": {
         "laravel": {
             "providers": [
-                "moki74\\LaravelBtc\\BitcoinPaymentServiceProvider"
+                "faseihs\\LaravelBtc\\BitcoinPaymentServiceProvider"
             ]
         }
     }
